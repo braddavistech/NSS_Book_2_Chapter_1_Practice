@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#userInput{
+  width: 100%;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;  
+}
+#textValue{
+  padding: 2vw;
+  width: 60%;
+  align-self: center;
+  margin: 2vw;
+}
+#submit{
+  width: 20%;
+  padding: 2vw;
+  margin-bottom: 2vw;
+  align-self: center;
+  font-size: 2vw;
+  font-weight: bold;
+}
+#placeHolder{
+  margin-top: 10vw;
+  width: 80%;
+  margin-left: 10%;
+}
+.textBox{
+  border: 2px solid red;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 4vw;
+}
+.textBox > p{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+.textBox > button {
+  width: 30%;
+  margin-left: 35%;
+  border: 2px solid red;
+  margin-bottom: 2vw;
+  border-radius: 7px;
+}
